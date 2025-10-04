@@ -2,8 +2,18 @@
 <!DOCTYPE html> <!--informs web browser about the html version in use-->
 <html> <!--basic html tag along with head and body-->
     <head>
-        <meta charset="UTF-8"> <!--this code allows use for all alphanumerics, signs whatever-->
-        <link rel="Stylesheet" type ="text/css" href="style.css"> <!--links this html file to the css stylesheet file in the directory-->
+        <meta charset="UTF-8"> <!--this code allows use for all alphanumerics, signs, symbols whatever-->
+
+
+        <!--links this html file to the css stylesheet file in the directory with consideration to different formats like for desktop, tablet, phone-->
+        <meta name="viewport" content="width=device-width">
+        <!-- full-size monitor style sheet-->
+        <link href="style.css" rel="stylesheet" type="text/css" media="only screen and (min-width:960px)">
+        <!-- tablet style sheet-->
+        <link href="tablet.css" rel="stylesheet" type="text/css" media="only screen and (min-width:481px) and (max-width:960px)">
+        <!-- phone style sheet-->
+        <link href="phone.css" rel="stylesheet" type="text/css" media="only screen and (max-width:480px)">
+
         <title>Home page</title> <!--shows Home Page as a title on the tab area-->
 
     </head>
@@ -19,6 +29,10 @@
                 <a href="contact.html">contact me</a>
             </nav>
         </div>
+
+        <footer>
+            <p>contact me at: sofiyan123@gmail.com <br> &copy; 2025 by Sofiyan Khan</p>
+        </footer>
 
     </body>
 

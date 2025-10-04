@@ -18,3 +18,9 @@ color: #002244;
 font-weight: bold;
 }
 
+footer{
+position:fixed;
+bottom: 0;
+left: 0;
+width: 100%
+}
