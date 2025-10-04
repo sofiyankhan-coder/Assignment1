@@ -5,6 +5,8 @@ font-family: Verdana, Geneva, Arial, sans-serif;
 /* going with the earthy aesthetic with this one*/
 }
 
+
+/* for the banner I used the same gradients as in the tutorials/lectures as i figured it would fit the aesthetic*/
 #banner {
 background: yellow; 
 background: -moz-linear-gradient(45deg, red 0%, yellow 100%); 
@@ -14,11 +16,13 @@ background: linear-gradient(45deg, red 0%,yellow 100%);
 padding:20px
 }
 
+
 nav a{
 color: #002244;
 font-weight: bold;
 }
 
+/* had to align the footer to the bottom left*/
 footer{
 position:fixed;
 bottom: 0;

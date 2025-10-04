@@ -1,4 +1,4 @@
-/*all of this is copy pasted from style.css but with slight changes
+/*all of this is copy pasted from style.css but with slight changes*/
 body {
 background-color: #382F2F;
 color: #F5F5DC;
@@ -23,7 +23,7 @@ margin: 5px 0px;
 }
 
 footer{
-position:relative;
+position:fixed;
 bottom: 0;
 left: 0;
 width: 100%
